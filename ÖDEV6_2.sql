@@ -1,6 +1,6 @@
-SELECT COUNT(title)
+SELECT MAX(length)
 FROM film
-WHERE title LIKE 'C%'
+WHERE rental_rate=0.99
 
 ;
 
